@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-div{
+    position:relative;
+}
+.static{
+    border: 1px solid black;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin-top:5px;
+    margin-left:4px;
+}
+.relative{
+    position: absolute;
+    border: 1px dotted orange;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    color: black;
+    top: 100px;
+    left:100px;
+}
+.fixed{
+    position: absolute;
+    border: 1px solid green;
+    width:250px;
+    height: 150px;
+    background-color:chartreuse;
+    top:20px;
+    left: 245px;
+}
+.parent{
+    position: relative;
+    border: 3px double yellow;
+    width:250px;
+    height: 150px;
+    background-color:grey;
+    top:150px;
+    left: 249px;
+}
+
+.child{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50px;
+    left: 70px;
+}

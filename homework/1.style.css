@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: linear-gradient(to left, red, orange);
+    height: 100vh;
+    position: relative;
+}
+
+.first-wrap {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid white;
+    left: 20%;
+    top: 15%;
+    background-color: white;
+}
+
+.second-wrap {
+    position: absolute;
+    background: linear-gradient(to top left, red, orange);
+    border-width: 1px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    top: 210px;
+    left: 250px;
+    display: inline;
+}
+
+.text {
+    position: absolute;
+    width: 460px;
+    top: 150px;
+    left: 340px;
+}
+
+.text span {
+    display: inline-block;
+    font-size: 20px;
+    color: grey;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: grey;
+}
+
+.btn {
+    background: linear-gradient(to top left, red, orange);
+    border-radius: 40px;
+    border-color: red;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.first-circle {
+    position: absolute;
+    border: 1px solid rgb(183, 181, 181);
+    background-color: rgb(183, 181, 181);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    right: 10px;
+    top: 210px;
+}
+
+.middle {
+    position: absolute;
+    border: 1px solid red;
+    background-color: red;
+    width: 12px;
+    height: 40px;
+    border-radius: 20px;
+    right: 10px;
+    top: 230px;
+}
+
+.end-circle {
+    position: absolute;
+    border: 1px solid rgb(183, 181, 181);
+    background-color: rgb(183, 181, 181);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    right: 10px;
+    top: 280px;
+}
